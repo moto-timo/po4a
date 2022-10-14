@@ -9,7 +9,7 @@
 # Modules and declarations
 ############################################################################
 
-use Pod::Parser;
+use Pod::Simple;
 use Locale::Po4a::TransTractor qw(process new);
 use Locale::Po4a::Common;
 
@@ -149,7 +149,7 @@ file.
 
 =head1 SEE ALSO
 
-L<Pod::Parser>,
+L<Pod::Simple>,
 L<Locale::Po4a::Man(3pm)>,
 L<Locale::Po4a::Pod(3pm)>,
 L<Locale::Po4a::TransTractor(3pm)>,

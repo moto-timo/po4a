@@ -6612,10 +6612,10 @@ msgstr ""
 #. type: textblock
 #: lib/Locale/Po4a/KernelHelp.pm:8
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock
@@ -8290,14 +8290,14 @@ msgstr "ВНУТРІШНІ ПРИНЦИПИ РОБОТИ"
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:19
 msgid ""
-"As a derived class from Pod::Parser, Locale::Po4a::Pod supports the same "
-"methods and interfaces.  See L<Pod::Parser> for all the details; briefly, "
+"As a derived class from Pod::Simple, Locale::Po4a::Pod supports the same "
+"methods and interfaces.  See L<Pod::Simple> for all the details; briefly, "
 "one creates a new parser with C<< Locale::Po4a::Pod->new() >> and then calls "
 "either parse_from_filehandle() or parse_from_file()."
 msgstr ""
-"Будучи класом, який походить від класу Pod::Parser, Locale::Po4a::Pod "
+"Будучи класом, який походить від класу Pod::Simple, Locale::Po4a::Pod "
 "підтримує ті самі методи та інтерфейси. Докладний опис можна знайти на "
-"сторінці підручника щодо L<Pod::Parser>. Якщо коротко, клас створює обробки "
+"сторінці підручника щодо L<Pod::Simple>. Якщо коротко, клас створює обробки "
 "за допомогою C<< Locale::Po4a::Pod->new() >>, а потім викликає "
 "parse_from_filehandle() або parse_from_file()."
 
@@ -8305,12 +8305,12 @@ msgstr ""
 #: lib/Locale/Po4a/Pod.pm:20
 msgid ""
 "new() can take options, in the form of key/value pairs, that control the "
-"behavior of the parser.  The recognized options common to all Pod::Parser "
+"behavior of the parser.  The recognized options common to all Pod::Simple "
 "children are:"
 msgstr ""
 "new() може примати параметри у форматі пар ключ/значення. Ці параметри "
 "керують поведінкою обробника. Коректні параметри є спільними для усіх "
-"дочірніх класів Pod::Parser:"
+"дочірніх класів Pod::Simple:"
 
 #. type: =item
 #: lib/Locale/Po4a/Pod.pm:21
@@ -8445,10 +8445,10 @@ msgstr ""
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:37
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock

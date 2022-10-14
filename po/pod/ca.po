@@ -6012,10 +6012,10 @@ msgstr ""
 #. type: textblock
 #: lib/Locale/Po4a/KernelHelp.pm:8
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock
@@ -7620,13 +7620,13 @@ msgstr "FUNCIONAMENT INTERN"
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:19
 msgid ""
-"As a derived class from Pod::Parser, Locale::Po4a::Pod supports the same "
-"methods and interfaces.  See L<Pod::Parser> for all the details; briefly, "
+"As a derived class from Pod::Simple, Locale::Po4a::Pod supports the same "
+"methods and interfaces.  See L<Pod::Simple> for all the details; briefly, "
 "one creates a new parser with C<< Locale::Po4a::Pod->new() >> and then calls "
 "either parse_from_filehandle() or parse_from_file()."
 msgstr ""
-"Com a classe derivada de Pod::Parser, Locale::Po4a::Pod suporta els mateixos "
-"mètodes i interfícies.  Consulteu L<Pod::Parser> per tots els detalls; "
+"Com a classe derivada de Pod::Simple, Locale::Po4a::Pod suporta els mateixos "
+"mètodes i interfícies.  Consulteu L<Pod::Simple> per tots els detalls; "
 "breument, es crea un nou analitzador amb C<< Locale::Po4a::Pod->new() >> i "
 "després es crida la funció parse_from_filehandle() o la funció "
 "parse_from_file()."
@@ -7635,11 +7635,11 @@ msgstr ""
 #: lib/Locale/Po4a/Pod.pm:20
 msgid ""
 "new() can take options, in the form of key/value pairs, that control the "
-"behavior of the parser.  The recognized options common to all Pod::Parser "
+"behavior of the parser.  The recognized options common to all Pod::Simple "
 "children are:"
 msgstr ""
 "new() pot rebre opcions, en la forma de parells clau/valor, que controlen el "
-"comportament de l'analitzador.  Tots els fills de Pod::Parser reconeixen "
+"comportament de l'analitzador.  Tots els fills de Pod::Simple reconeixen "
 "aquestes opcions:"
 
 #. type: =item
@@ -7772,10 +7772,10 @@ msgstr "La columna a la que es justificarà el text.  Per defecte val 76."
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:37
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock

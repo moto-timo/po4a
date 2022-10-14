@@ -11,7 +11,7 @@
 # Modules and declarations
 ############################################################################
 
-use Pod::Parser;
+use Pod::Simple;
 use Locale::Po4a::TransTractor qw(process new get_out_charset);
 
 package Locale::Po4a::Pod;
@@ -23,7 +23,7 @@ use warnings;
 require Exporter;
 
 use vars qw(@ISA);
-@ISA = qw(Locale::Po4a::TransTractor Pod::Parser);
+@ISA = qw(Locale::Po4a::TransTractor Pod::Simple);
 
 use Carp qw(croak confess);
 
@@ -245,13 +245,13 @@ that it depends on the chosen wrapping column):
 
 =head1 INTERNALS
 
-As a derived class from Pod::Parser, Locale::Po4a::Pod supports the same
-methods and interfaces.  See L<Pod::Parser> for all the details; briefly,
+As a derived class from Pod::Simple, Locale::Po4a::Pod supports the same
+methods and interfaces.  See L<Pod::Simple> for all the details; briefly,
 one creates a new parser with C<< Locale::Po4a::Pod->new() >> and then
 calls either parse_from_filehandle() or parse_from_file().
 
 new() can take options, in the form of key/value pairs, that control the
-behavior of the parser.  The recognized options common to all Pod::Parser
+behavior of the parser.  The recognized options common to all Pod::Simple
 children are:
 
 =over 4
@@ -308,7 +308,7 @@ The column at which to wrap text on the right-hand side.  Defaults to 76.
 
 =head1 SEE ALSO
 
-L<Pod::Parser>,
+L<Pod::Simple>,
 L<Locale::Po4a::Man(3pm)>,
 L<Locale::Po4a::TransTractor(3pm)>,
 L<po4a(7)|po4a.7>

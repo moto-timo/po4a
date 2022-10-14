@@ -6719,10 +6719,10 @@ msgstr ""
 #. type: textblock
 #: lib/Locale/Po4a/KernelHelp.pm:8
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock
@@ -8418,13 +8418,13 @@ msgstr "INTERNA"
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:19
 msgid ""
-"As a derived class from Pod::Parser, Locale::Po4a::Pod supports the same "
-"methods and interfaces.  See L<Pod::Parser> for all the details; briefly, "
+"As a derived class from Pod::Simple, Locale::Po4a::Pod supports the same "
+"methods and interfaces.  See L<Pod::Simple> for all the details; briefly, "
 "one creates a new parser with C<< Locale::Po4a::Pod->new() >> and then calls "
 "either parse_from_filehandle() or parse_from_file()."
 msgstr ""
-"Als abgeleitete Klasse von Pod::Parser unterstützt Locale::Po4a::Pod die "
-"gleichen Methoden und Schnittstellen. Lesen Sie L<Pod::Parser> für alle "
+"Als abgeleitete Klasse von Pod::Simple unterstützt Locale::Po4a::Pod die "
+"gleichen Methoden und Schnittstellen. Lesen Sie L<Pod::Simple> für alle "
 "Details; in Kürze, ein neuer Parser wird mit C<< Locale::Po4a::Pod->new() >> "
 "erstellt und dann wird entweder parse_from_filehandle() oder "
 "parse_from_file() aufgerufen."
@@ -8433,11 +8433,11 @@ msgstr ""
 #: lib/Locale/Po4a/Pod.pm:20
 msgid ""
 "new() can take options, in the form of key/value pairs, that control the "
-"behavior of the parser.  The recognized options common to all Pod::Parser "
+"behavior of the parser.  The recognized options common to all Pod::Simple "
 "children are:"
 msgstr ""
 "new() akzeptiert Optionen in der Form von Schlüssel/Wert-Paaren, die das "
-"Verhalten des Parsers steuern. Die von allen Pod::Parser-Kindern erkannten "
+"Verhalten des Parsers steuern. Die von allen Pod::Simple-Kindern erkannten "
 "Optionen sind:"
 
 #. type: =item
@@ -8576,10 +8576,10 @@ msgstr ""
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:37
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock

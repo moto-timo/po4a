@@ -6067,10 +6067,10 @@ msgstr ""
 #. type: textblock
 #: lib/Locale/Po4a/KernelHelp.pm:8
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock
@@ -7613,23 +7613,23 @@ msgstr "內件"
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:19
 msgid ""
-"As a derived class from Pod::Parser, Locale::Po4a::Pod supports the same "
-"methods and interfaces.  See L<Pod::Parser> for all the details; briefly, "
+"As a derived class from Pod::Simple, Locale::Po4a::Pod supports the same "
+"methods and interfaces.  See L<Pod::Simple> for all the details; briefly, "
 "one creates a new parser with C<< Locale::Po4a::Pod->new() >> and then calls "
 "either parse_from_filehandle() or parse_from_file()."
 msgstr ""
-"作為 Pod::Parser 的派生類，Locale::Po4a::Pod 支援相同的方法和介面。有關所有細"
-"節，請參見 L<Pod::Parser>；簡而言之，使用 C<< Locale::Po4a::Pod->new() >> 創"
+"作為 Pod::Simple 的派生類，Locale::Po4a::Pod 支援相同的方法和介面。有關所有細"
+"節，請參見 L<Pod::Simple>；簡而言之，使用 C<< Locale::Po4a::Pod->new() >> 創"
 "建一個新的解析器，然後呼叫 parse_from_filehandle() 或 parse_from_file()。"
 
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:20
 msgid ""
 "new() can take options, in the form of key/value pairs, that control the "
-"behavior of the parser.  The recognized options common to all Pod::Parser "
+"behavior of the parser.  The recognized options common to all Pod::Simple "
 "children are:"
 msgstr ""
-"new() 可以採用鍵/值對形式的選項來控制解析器的行為。所有 Pod::Parser 子級通用"
+"new() 可以採用鍵/值對形式的選項來控制解析器的行為。所有 Pod::Simple 子級通用"
 "的可識別選項為："
 
 #. type: =item
@@ -7751,10 +7751,10 @@ msgstr "要在其右側換行文字的列。預設為 76。"
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:37
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock

@@ -6675,10 +6675,10 @@ msgstr ""
 #. type: textblock
 #: lib/Locale/Po4a/KernelHelp.pm:8
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::Pod(3pm)>, "
 "L<Locale::Po4a::TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock
@@ -8367,13 +8367,13 @@ msgstr "BINNENWERK"
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:19
 msgid ""
-"As a derived class from Pod::Parser, Locale::Po4a::Pod supports the same "
-"methods and interfaces.  See L<Pod::Parser> for all the details; briefly, "
+"As a derived class from Pod::Simple, Locale::Po4a::Pod supports the same "
+"methods and interfaces.  See L<Pod::Simple> for all the details; briefly, "
 "one creates a new parser with C<< Locale::Po4a::Pod->new() >> and then calls "
 "either parse_from_filehandle() or parse_from_file()."
 msgstr ""
-"Als een afgeleide klasse van Pod::Parser, ondersteunt Locale::Po4a::Pod "
-"dezelfde methodes en interfaces. Zie L<Pod::Parser> voor alle details; in "
+"Als een afgeleide klasse van Pod::Simple, ondersteunt Locale::Po4a::Pod "
+"dezelfde methodes en interfaces. Zie L<Pod::Simple> voor alle details; in "
 "het kort: men creëert een nieuwe ontleder met C<< Locale::Po4a::Pod->new() "
 ">> en aanroept daarna ofwel parse_from_filehandle() of parse_from_file()."
 
@@ -8381,12 +8381,12 @@ msgstr ""
 #: lib/Locale/Po4a/Pod.pm:20
 msgid ""
 "new() can take options, in the form of key/value pairs, that control the "
-"behavior of the parser.  The recognized options common to all Pod::Parser "
+"behavior of the parser.  The recognized options common to all Pod::Simple "
 "children are:"
 msgstr ""
 "Met new() kunnen opties gebruikt worden in de vorm van paren van sleutel/"
 "waarde. Zij sturen het gedrag van de ontleder. De gemeenschappelijke "
-"mogelijke opties voor alle dochters van Pod::Parser zijn:"
+"mogelijke opties voor alle dochters van Pod::Simple zijn:"
 
 #. type: =item
 #: lib/Locale/Po4a/Pod.pm:21
@@ -8524,10 +8524,10 @@ msgstr ""
 #. type: textblock
 #: lib/Locale/Po4a/Pod.pm:37
 msgid ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 msgstr ""
-"L<Pod::Parser>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
+"L<Pod::Simple>, L<Locale::Po4a::Man(3pm)>, L<Locale::Po4a::"
 "TransTractor(3pm)>, L<po4a(7)|po4a.7>"
 
 #. type: textblock
